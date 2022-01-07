@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Connect Four</title>
+</head>
+<body>
+
+    <h1>Connect Four</h1>
+
+    <h3 class="player-turn"></h3>
+
+    <div class="container">
+
+    <table>
+        <tr>
+            <td class="slot" id="slot(5,0)" onclick = showPosition(5,0)></td>
+            <td class="slot" id="slot(5,1)" onclick = showPosition(5,1)></td>
+            <td class="slot" id="slot(5,2)" onclick = showPosition(5,2)></td>
+            <td class="slot" id="slot(5,3)" onclick = showPosition(5,3)></td>
+            <td class="slot" id="slot(5,4)" onclick = showPosition(5,4)></td>
+            <td class="slot" id="slot(5,5)" onclick = showPosition(5,5)></td>
+            <td class="slot" id="slot(5,6)" onclick = showPosition(5,6)></td>
+        </tr>
+        <tr>
+            <td class="slot" id="slot(4,0)" onclick = showPosition(4,0)></td>
+            <td class="slot" id="slot(4,1)" onclick = showPosition(4,1)></td>
+            <td class="slot" id="slot(4,2)" onclick = showPosition(4,2)></td>
+            <td class="slot" id="slot(4,3)" onclick = showPosition(4,3)></td>
+            <td class="slot" id="slot(4,4)" onclick = showPosition(4,4)></td>
+            <td class="slot" id="slot(4,5)" onclick = showPosition(4,5)></td>
+            <td class="slot" id="slot(4,6)" onclick = showPosition(4,6)></td>
+        </tr>
+        <tr>
+            <td class="slot" id="slot(3,0)" onclick = showPosition(3,0)></td>
+            <td class="slot" id="slot(3,1)" onclick = showPosition(3,1)></td>
+            <td class="slot" id="slot(3,2)" onclick = showPosition(3,2)></td>
+            <td class="slot" id="slot(3,3)" onclick = showPosition(3,3)></td>
+            <td class="slot" id="slot(3,4)" onclick = showPosition(3,4)></td>
+            <td class="slot" id="slot(3,5)" onclick = showPosition(3,5)></td>
+            <td class="slot" id="slot(3,6)" onclick = showPosition(3,6)></td>
+        </tr>
+        <tr>
+            <td class="slot" id="slot(2,0)" onclick = showPosition(2,0)></td>
+            <td class="slot" id="slot(2,1)" onclick = showPosition(2,1)></td>
+            <td class="slot" id="slot(2,2)" onclick = showPosition(2,2)></td>
+            <td class="slot" id="slot(2,3)" onclick = showPosition(2,3)></td>
+            <td class="slot" id="slot(2,4)" onclick = showPosition(2,4)></td>
+            <td class="slot" id="slot(2,5)" onclick = showPosition(2,5)></td>
+            <td class="slot" id="slot(2,6)" onclick = showPosition(2,6)></td>
+        </tr>
+        <tr>
+            <td class="slot" id="slot(1,0)" onclick = showPosition(1,0)></td>
+            <td class="slot" id="slot(1,1)" onclick = showPosition(1,1)></td>
+            <td class="slot" id="slot(1,2)" onclick = showPosition(1,2)></td>
+            <td class="slot" id="slot(1,3)" onclick = showPosition(1,3)></td>
+            <td class="slot" id="slot(1,4)" onclick = showPosition(1,4)></td>
+            <td class="slot" id="slot(1,5)" onclick = showPosition(1,5)></td>
+            <td class="slot" id="slot(1,6)" onclick = showPosition(1,6)></td>
+        </tr>
+        <tr>
+            <td class="slot" id="slot(0,0)" onclick = showPosition(0,0)></td>
+            <td class="slot" id="slot(0,1)" onclick = showPosition(0,1)></td>
+            <td class="slot" id="slot(0,2)" onclick = showPosition(0,2)></td>
+            <td class="slot" id="slot(0,3)" onclick = showPosition(0,3)></td>
+            <td class="slot" id="slot(0,4)" onclick = showPosition(0,4)></td>
+            <td class="slot" id="slot(0,5)" onclick = showPosition(0,5)></td>
+            <td class="slot" id="slot(0,6)" onclick = showPosition(0,6)></td>
+        </tr>
+    </table>
+</div>
+
+<div class="newGame">New Game</div>
+<div class="reset">Reset</div>
+
+<div class="column" id="message" style="background-color:#fffff0;"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
